@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 56px;
+  }
+
+  #logo {
+    width: 100px; 
+    height: 40px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+  .hero-section {
+    background: url('img/bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 400px;
+  }
+
+  .title {
+    font-weight: bold;
+    color: #cda45e;
+  }
+
+  .italic-text {
+    font-style: italic;
+    margin-bottom: 60px;
+  }
+
+  .btn-explore {
+    background-color: #cda45e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .btn-explore:hover {
+    background-color: #d0952f;
+    outline: none;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar {
+    color: white;
+    font-weight: bold;
+  }
+
+@media (max-width: 767px) {
+.navbar-toggler {
+    background-color: #cda45e;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    background-color: #000;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px;
+    display: block;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #d0952f;
+    }
+  }
+
+.about {
+    overflow: hidden;
+}
+
+.about .nav-tabs {
+    border: 0;
+}
+
+.about .nav-link {
+    border: 0;
+    padding: 12px 15px;
+    transition: 0.3s;
+    color:  #ca9740;
+    border-radius: 0;
+    border-right: 2px solid black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about .nav-link:hover {
+    color: #cda45e;
+}
+
+.about .tab-pane.active {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.about .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.about .details p {
+    color: black;
+}
+
+.section-title h3 {
+  color: #cda45e;
+  font-weight: bolder;
+}
+
+.exhibits-section h3 {
+  color: #cda45e;
+  font-weight: bolder;
+}
+
+.exhibits-section {
+    padding: 50px 0 0;
+  }
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0 100px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    color: #cda45e;
+    font-weight: bolder;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+     
+footer {
+    background-image: url('img/footer.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 3px ; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.right-content a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px; 
+}
+
+.right-content a:hover {
+    text-decoration: none;
+}
+
+
+.counter-section {
+    position: relative;
+  }
+  
+  .counter-section {
+    border-right: 1px solid #b9b8b8; 
+    padding-right: 15px; 
+  }
+  
+  .counter-section:last-child {
+    border-right: none; 
+  }
+  
+  .counter-section i {
+    display: block;
+    margin: 0 0 10px;
+  }
+  
+  .counter-section span.counter {
+    font-size: 30px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .counter-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cda45e;
+    font-weight: bold;
+  }
+  
+  .counter-icon {
+    top: 20px;
+    position: relative;
+  }
+  
+  .counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left;
+  }
+  
+  .counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0;
+  }
+  
+  .counter-subheadline span {
+    float: right;
+  }
+  
+  .medium-icon {
+    font-size: 30px !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .container-counter {
+    margin-top: 70px;
+  }
+  
